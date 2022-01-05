@@ -18,6 +18,7 @@ Git & Unity (by Jason Weimann): https://www.youtube.com/watch?v=tNhIh3NzANc&list
 ## Recommended Setup
 
 **.gitignore**: https://github.com/github/gitignore
+
 **.gitattribute**: https://gist.github.com/nemotoo/b8a1c3a0f1225bb9231979f389fd4f3f 
 
 **Smart merge** (UnityYamlMerge.exe): tool by Unity to merge scene and Prefab files in a semantically correct way.
@@ -29,13 +30,38 @@ example:
 *Diff/Merge tool:* C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\Tools\UnityYAMLMerge.exe 
 *Arguments:* merge -p $BASE $REMOTE $LOCAL $MERGED
 
-![SourcetreeUnity](D:\git\gist\UnityGitSetup\SourcetreeUnity.png)
+![Sourcetree Unity setup](https://raw.githubusercontent.com/WickyPayne/Unity-Git-Guide/main/SourcetreeUnity.png)
 
-(source1: https://docs.unity3d.com/Manual/SmartMerge.html )
-(source2: Unity3D - How to Merge Scenes in GIT (by Jason Weimann) [time 3:40] https://youtu.be/yQvbaBgxA34?t=220)
+(source1: https://docs.unity3d.com/Manual/SmartMerge.html ) (source2: Unity3D - How to Merge Scenes in GIT (by Jason Weimann) [time 3:40] https://youtu.be/yQvbaBgxA34?t=220)
 
 ## Optional Setup
 
 **Meld + Smart merge** *(optional)*: https://www.youtube.com/watch?v=EQB-N-ClO9g
 
 **Scene Fusion** (optional): plugin for Unity - real-time scene merger https://www.kinematicsoup.com/scene-fusion/pricing
+
+------
+
+## Collaboration - Best Practices
+
+**IMPORTANT:** In Project Settings set Asset Serialization mode to Force text. (Edit -> Project Settings -> Editor -> **Asset Serialization** -> Mode: Force text)
+
+UnityYamlMerge.exe will help a lot BUT, best is to **avoid conflicts in scene** file.
+
+**Scene**:
+
+- Work in different SCENES. One person putting all the SCENES together. Use Additive Scenes at the same time.
+- After resolving merge conflict (before commiting it) test BOTH changes (if both wanted).
+- Scene (and other changes) in separate commit.
+- (optional: Use plugin Scene Fusion.)
+
+Avoid changes in **Scene**:
+- Use prefabs (different prefabs for different parts of UI)
+- Split world to more areas(prefabs) (if you don't move prefab in a scene it will not modify scene)
+- Use scriptable objects to store data
+- cinematic/cutscene - nest Timelines (like prefabs)
+- ~~Use GithubForUnity asset~~ - not working anymore. (Lock scenes using git LFS lock) 
+
+Use Git LFS
+- textures, models, audio, video, ...  
+- not-recommended?: scenes, some assets, ... see conversation in .gitattribute gist
