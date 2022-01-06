@@ -74,7 +74,7 @@ Sources:
 
 **Introduction to Version Control | Unite Now 2020** (by Unity): https://www.youtube.com/watch?v=ISW2nS_v3Ic
 
-**Git & Unity **(by Jason Weimann): https://www.youtube.com/watch?v=tNhIh3NzANc&list=PLB5_EOMkLx_X7VgZxsjsd2WatkjocMXcb
+**Git & Unity** (by Jason Weimann): https://www.youtube.com/watch?v=tNhIh3NzANc&list=PLB5_EOMkLx_X7VgZxsjsd2WatkjocMXcb
 
 **Git with Unity for Game Development** (by Microsoft Developer):  
 video: https://www.youtube.com/watch?v=GmRPCl4MzCA  
