@@ -1,6 +1,6 @@
 # Best practices using Git with Unity
 
-Main problem using Git with Unity is conflicts in 
+Main problem collaborating on project in Unity are **conflicts in Scene**, Prefab, etc. which are not easily mergeable. Using **Smart merge by Unity** can help reduce a headache of collaborating on project with your friend. Nevertheless conflict can happen, so try to **avoid changes in same scene**, it's similar as to artists are not working on same image file at the same time.
 
 ------
 
@@ -23,6 +23,8 @@ Git & Unity (by Jason Weimann): https://www.youtube.com/watch?v=tNhIh3NzANc&list
 
 **.gitattribute**: https://gist.github.com/nemotoo/b8a1c3a0f1225bb9231979f389fd4f3f 
 
+**IMPORTANT:** In Project Settings set Asset Serialization mode to Force text. (Edit -> Project Settings -> Editor -> **Asset Serialization** -> Mode: **Force text**)
+
 **Smart merge** (UnityYamlMerge.exe):  
 tool by Unity to merge Scene and Prefab files in a semantically correct way. 
 
@@ -35,21 +37,16 @@ Set Sourcetree to use UnityYamlMerge.exe as external diff/merge tool:
 
 ![Sourcetree Unity setup](https://raw.githubusercontent.com/WickyPayne/Unity-Git-Guide/main/SourcetreeSetup.png)
 
-(source1: https://docs.unity3d.com/Manual/SmartMerge.html )  
-(source2: Unity3D - How to Merge Scenes in GIT (by Jason Weimann) [time 3:40] https://youtu.be/yQvbaBgxA34?t=220)
-
 ## Optional Setup
 
 **Meld + Smart merge** *(optional)*: https://www.youtube.com/watch?v=EQB-N-ClO9g
 
-**Scene Fusion** (optional): plugin for Unity - real-time scene merger https://www.kinematicsoup.com/scene-fusion/pricing
+**Scene Fusion** *(optional)*: plugin for Unity - real-time scene merger https://www.kinematicsoup.com/scene-fusion/pricing
 ~~**Github For Unity** extension asset~~ - not working anymore. https://unity.github.com/
 
 ------
 
 ## Collaboration - Best Practices
-
-**IMPORTANT:** In Project Settings set Asset Serialization mode to Force text. (Edit -> Project Settings -> Editor -> **Asset Serialization** -> Mode: **Force text**)
 
 UnityYamlMerge.exe will help a lot BUT, best is to **avoid conflicts in scene** file.
 
@@ -74,6 +71,12 @@ Use Git LFS
 ------
 
 Sources:
-**Git with Unity for Game Development** (by Microsoft Developer):
+
+**Introduction to Version Control | Unite Now 2020** (by Unity): https://www.youtube.com/watch?v=ISW2nS_v3Ic
+
+**Git with Unity for Game Development** (by Microsoft Developer):  
 video: https://www.youtube.com/watch?v=GmRPCl4MzCA  
 mentioned in video: https://aka.ms/gitwithunity - (redirects to https://edwardthomson.com/blog/git_with_unity.html )
+
+**Smart merge manual**: https://docs.unity3d.com/Manual/SmartMerge.html  
+**Unity3D - How to Merge Scenes in GIT** (by Jason Weimann) [time 3:40]: https://youtu.be/yQvbaBgxA34?t=220)
