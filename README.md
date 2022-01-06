@@ -27,7 +27,7 @@ Set Sourcetree to use UnityYamlMerge.exe as external diff/merge tool:
 
 example:
 
-*Diff/Merge tool:* C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\Tools\UnityYAMLMerge.exe 
+*Diff/Merge tool:* C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\Tools\UnityYAMLMerge.exe
 *Arguments:* merge -p $BASE $REMOTE $LOCAL $MERGED
 
 ![Sourcetree Unity setup](https://raw.githubusercontent.com/WickyPayne/Unity-Git-Guide/main/SourcetreeUnity.png)
