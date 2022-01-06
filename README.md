@@ -41,7 +41,8 @@ Set Sourcetree to use UnityYamlMerge.exe as external diff/merge tool:
 
 **Meld + Smart merge** *(optional)*: https://www.youtube.com/watch?v=EQB-N-ClO9g
 
-**Scene Fusion** *(optional)*: plugin for Unity - real-time scene merger https://www.kinematicsoup.com/scene-fusion/pricing
+**Scene Fusion** *(optional)*: plugin for Unity - real-time scene merger https://www.kinematicsoup.com/scene-fusion/pricing  
+
 ~~**Github For Unity** extension asset~~ - not working anymore. https://unity.github.com/
 
 ------
