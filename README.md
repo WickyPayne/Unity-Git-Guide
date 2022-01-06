@@ -9,10 +9,10 @@ Warning: This guide is for **experienced users** with Unity and Git.
 
 ------
 
-**Beginners** start with:
-
+**Beginners with Git** start with:  
 Getting started with Git using SourceTree (by Virtual Play): https://www.youtube.com/watch?v=UD7PV8auGLg&list=PLpL2ONl1hMLtlY1Y7YJNcA5zumvaITLYs
 
+**Inexperienced with Git with Unity and scene conflicts:**  
 Git & Unity (by Jason Weimann): https://www.youtube.com/watch?v=tNhIh3NzANc&list=PLB5_EOMkLx_X7VgZxsjsd2WatkjocMXcb
 
 ------
@@ -74,9 +74,10 @@ Sources:
 
 **Introduction to Version Control | Unite Now 2020** (by Unity): https://www.youtube.com/watch?v=ISW2nS_v3Ic
 
+**Git & Unity **(by Jason Weimann): https://www.youtube.com/watch?v=tNhIh3NzANc&list=PLB5_EOMkLx_X7VgZxsjsd2WatkjocMXcb
+
 **Git with Unity for Game Development** (by Microsoft Developer):  
 video: https://www.youtube.com/watch?v=GmRPCl4MzCA  
 mentioned in video: https://aka.ms/gitwithunity - (redirects to https://edwardthomson.com/blog/git_with_unity.html )
 
-**Smart merge manual**: https://docs.unity3d.com/Manual/SmartMerge.html  
-**Unity3D - How to Merge Scenes in GIT** (by Jason Weimann) [time 3:40]: https://youtu.be/yQvbaBgxA34?t=220)
+**Smart merge manual**: https://docs.unity3d.com/Manual/SmartMerge.html
