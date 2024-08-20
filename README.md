@@ -7,8 +7,6 @@ Main problem collaborating on project in Unity are **conflicts in Scene**, Prefa
 
 Warning: This guide is for **experienced users** with Unity and Git.
 
-------
-
 **Beginners with Git** start with:  
 Getting started with Git using SourceTree (by Virtual Play): https://www.youtube.com/watch?v=UD7PV8auGLg&list=PLpL2ONl1hMLtlY1Y7YJNcA5zumvaITLYs
 
