@@ -22,7 +22,7 @@ Git & Unity (by Jason Weimann): https://www.youtube.com/watch?v=tNhIh3NzANc&list
 We will use Smart merge tool + Meld. (I use SourceTree, but this setup should also work with plain git or any other client.)
 
 ### .gitignore:  
-https://github.com/github/gitignore  
+https://github.com/github/gitignore/blob/main/Unity.gitignore
 Use this .gitignore file. It's set up for Unity projects.
 
 ### .gitattributes:  
